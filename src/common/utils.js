@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import moment from 'moment'
 import __ from './i18n'
 moment.locale(__('@@ui_locale'))

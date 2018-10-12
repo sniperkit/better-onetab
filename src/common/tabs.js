@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import storage from './storage'
 import list from './list'
 import _ from 'lodash'

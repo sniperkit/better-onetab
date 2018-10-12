@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import Vue from 'vue'
 import Router from 'vue-router'
 import DetailList from '@/page/DetailList'

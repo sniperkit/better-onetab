@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 /* eslint-disable */
 module.exports = {
   development: {

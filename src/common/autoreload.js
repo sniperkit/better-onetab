@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 const filesInDirectory = dir => new Promise(resolve => {
   dir.createReader().readEntries(entries => {
     Promise.all(entries.filter(e => e.name[0] !== '.').map(e => e.isDirectory ? filesInDirectory(e) : new Promise(resolve => e.file(resolve)))).then(files => [].concat(...files)).then(resolve)

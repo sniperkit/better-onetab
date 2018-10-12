@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import _ from 'lodash'
 import __ from '@/common/i18n'
 

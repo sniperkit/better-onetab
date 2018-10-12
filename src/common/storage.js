@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import _ from 'lodash'
 import browser from 'webextension-polyfill'
 import boss from '@/common/service/boss'

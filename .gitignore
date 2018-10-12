@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 node_modules/**/*
 yarn-error.log
 dist

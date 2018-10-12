@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import tabs from './common/tabs'
 import storage from './common/storage'
 import options from './common/options'
@@ -271,7 +276,7 @@ const init = async () => {
       const updatedNotificationId = 'updated'
       browser.notifications.onClicked.addListener(id => {
         if (id === updatedNotificationId) {
-          browser.tabs.create({ url: 'https://github.com/cnwangjie/better-onetab/blob/master/CHANGELOG.md' })
+          browser.tabs.create({ url: 'https://github.com/sniperkit/snk.fork.cnwangjie-better-onetab/blob/master/CHANGELOG.md' })
         }
       })
       browser.notifications.create(updatedNotificationId, {

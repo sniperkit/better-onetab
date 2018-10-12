@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 import _ from 'lodash'
 import Vue from 'vue'
 import Vuex from 'vuex'

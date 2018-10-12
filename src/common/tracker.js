@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 let imported = false
 export const tracker = () => {
   if (imported) return
